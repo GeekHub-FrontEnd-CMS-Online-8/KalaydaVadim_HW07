@@ -1,0 +1,333 @@
+$purplecolor: #8d81ac
+$greycolor: #848e97
+$font-sourcesanspro: "Source Sans Pro"
+$social-text-lineheight: 32px
+$marginleft-testimonals: 50px
+$paddingtop-testimonails-text: 30px
+$margintop-testimonials: 65px
+
+.hero
+  height: 800px
+  background-image: url(../img/hero_image.png)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+.forkup
+  color: $white_color
+  font-size: 82px
+  line-height: 250.45px
+
+.gamechanger
+  color: $purplecolor
+  font-size: 30px
+  margin-top: -70px
+
+.version-text-hero
+  font-size: 16px
+  letter-spacing: 0.5px
+
+.hero
+  .btn
+    width: 392px
+    height: 62px
+    background-color: $purplecolor
+    font-family: $font-montserrat
+    color: $white_color
+    border: 1px solid #8d81ac
+    border-radius: 35px
+    font-size: 21px
+    margin-top: 506px
+    &:active
+      background-color: #9992a8
+
+@media (min-width: 470px) and (max-width: 763px)
+  .hero
+    .btn
+      margin-top: 471px
+
+.under-hero
+  background-color: $white_color
+  height: 391px
+
+  .trial-text
+    font-size: 14px
+    line-height: 103px
+  .revol-editor
+    font-size: 54px
+    color: #635c73
+    letter-spacing: 2px
+  .p-under-hero
+    display: inline-block
+    max-width: 880px
+    opacity: 0.8
+    color: #323232
+    font-family: $font-sourcesanspro
+    font-size: 21px
+    text-align: center
+    line-height: 32px
+    padding-top: 10px
+  img
+    margin-top: 15px
+
+@media (min-width: 470px) and (max-width: 489px)
+  .under-hero
+    height: 465px
+
+@media (min-width: 489px) and (max-width: 671px)
+  .under-hero
+    height: 450px
+
+.features
+  height: 711px
+  background-color: #f4f4f4
+  padding: 1px
+  .all-left
+    margin-top: -140px
+    div
+      margin-top: 0px
+      margin-left: 50px
+    h3
+      font-size: 16px
+      font-family: $font-montserrat
+      line-height: 21px
+      color: #323232
+      font-weight: bold
+      padding-left: 135px
+      margin-top: -68px
+    p
+      font-size: 14px
+      color: #848e97
+      line-height: 21px
+      font-weight: bold
+      opacity: 0.7
+      margin-left: 135px
+    .first-text
+      max-width: 350px
+    .second-text
+      max-width: 366px
+  h2
+    color: $purplecolor
+    font-size: 48px
+    font-weight: bold
+    line-height: 195px
+    padding-left: 600px
+
+  .img
+    position: absolute
+    transform: translate(593px, 0px)
+
+@media (min-width: 470px)and(max-width: 487px)
+  .features
+    height: 1395px
+    .img
+      transform: translate(0px, 750px)
+    .all-left
+      margin-top: -35px
+    h2
+      font-size: 40px
+      line-height: 125px
+      padding-left: 0px
+
+@media (min-width: 488px)and(max-width: 501px)
+    .features
+      height: 1325px
+      .img
+        transform: translate(0px, 680px)
+      .all-left
+        margin-top: -35px
+      h2
+        font-size: 40px
+        line-height: 125px
+        padding-left: 0px
+
+@media (min-width: 502px)and(max-width: 1200px)
+    .features
+      height: 1255px
+      .img
+        transform: translate(0px, 615px)
+      .all-left
+        margin-top: -35px
+      h2
+        font-size: 40px
+        line-height: 125px
+        padding-left: 0px
+
+.social
+  height: 590px
+  .author-logo
+    margin-top: 129px
+  .about-author-text
+    font-size: 20px
+    color: #333333
+    font-family: $font-sourcesanspro
+    line-height: 32px
+    padding-top: 35px
+  .time-ago
+    color: $greycolor
+    line-height: $social-text-lineheight
+    font-weight: $bold-text
+  .arrow
+    margin-top: 82px
+  hr
+    max-width: 780px
+    border: 1px solid #c7c7c7
+    opacity: 0.2
+    margin-top: 20px
+  .fol1text
+    text-align: center
+    padding-top: 15px
+    color: $greycolor
+    opacity: 0.7
+  .fol2text
+    text-align: center
+    padding-top: 15px
+    color: $greycolor
+    opacity: 0.7
+  .sub-text
+    text-align: center
+    padding-top: 15px
+    color: $greycolor
+    opacity: 0.7
+  .social-buttons
+    display: flex
+    justify-content: center
+    div
+      margin-left: 40px
+
+@media (min-width: 470px)and(max-width: 746px)
+  .social
+    height: 880px
+    .arrow
+      margin-top: 95px
+    .social-buttons
+      flex-direction: column
+      margin-left: 125px
+      .fol1text
+        text-align: left
+        padding-left: 65px
+      .fol2text
+        text-align: left
+        padding-left: 53px
+      .sub-text
+        text-align: left
+        padding-left: 45px
+@media (min-width: 746px)and(max-width: 836px)
+  .social
+    height: 780px
+    .arrow-l
+      margin-left: 60px
+    .arrow-r
+      margin-left: -115px
+    .social-buttons
+      flex-direction: column
+      margin-left:  195px
+      .fol1text
+        text-align: left
+        padding-left: 65px
+      .fol2text
+        text-align: left
+        padding-left: 53px
+      .sub-text
+        text-align: left
+        padding-left: 45px
+
+@media (min-width: 837px)and(max-width: 960px)
+  .social
+    .arrow-l
+      margin-left: 60px
+    .arrow-r
+      margin-left: -115px
+
+.testimonials
+  height: 764px
+  background-color: #4b3b4e
+  background-image: url(../img/background-testimonals.png)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  text-align: center
+  display: block
+  .testimonals-content
+    .testimonals1
+      margin-top: 10px
+      margin-left: $marginleft-testimonals
+      p
+        padding-top: $paddingtop-testimonails-text
+    .testimonals2
+      margin-left: $marginleft-testimonals
+      p
+        padding-top: $paddingtop-testimonails-text
+    .testimonals3
+      margin-top: -25px
+      margin-left: $marginleft-testimonals
+      p
+        padding-top: $paddingtop-testimonails-text
+    .testimonals4
+      margin-top: 70px
+      margin-left: $marginleft-testimonals
+      flex-wrap: wrap
+      p
+        padding-top: $paddingtop-testimonails-text
+    .testimonals5
+      margin-top: $margintop-testimonials
+      margin-left: $marginleft-testimonals
+      p
+        padding-top: $paddingtop-testimonails-text
+    .testimonals6
+      margin-top: $margintop-testimonials
+      margin-left: $marginleft-testimonals
+      p
+        padding-top: $paddingtop-testimonails-text
+  h2
+    color: $white_color
+    font-size: 48px
+    line-height: 226.45px
+  p
+    color: $white_color
+    font-style: italic
+    font-size: 16px
+    font-family: $font-sourcesanspro
+    line-height: 24px
+  hr
+    max-width: 780px
+    border: 1px solid #c7c7c7
+    opacity: 0.2
+    margin-top: 90px
+
+@media (min-width: 470px)and(max-width: 766px)
+  .testimonials
+    height: 1660px
+    h2
+      font-size: 32px
+    .testimonals-content
+      .testimonals2
+        margin-top: 40px
+      .testimonals3
+        margin-top: 40px
+
+@media (min-width: 766px)and(max-width: 990px)
+  .testimonials
+    height: 1660px
+    .testimonals-content
+      .testimonals2
+        margin-top: 40px
+      .testimonals3
+        margin-top: 40px
+
+@media (min-width: 992px)and(max-width: 1198px)
+  .testimonials
+    height: 990px
+    .testimonals-content
+      .testimonals2
+        margin-top: 5px
+      .testimonals3
+        margin-top: 32px
+
+.pricing
+  height: 899px
+  background-color: #4b3b4e
+  background-image: url(../img/bg2-pricing.png)
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
