@@ -21,9 +21,9 @@
           <div class="navig">
           <ul class="list-inline navbar justify-content-end ul-up topnav">
             <li class="nav-item active"><a class="nav-link a-color" href="#overview">Overview</a></li>
-            <li class="nav-item"><a class="nav-link a-color" href="#">About Fork</a></li>
-            <li class="nav-item"><a class="nav-link a-color" href="#">Buying Options</a></li>
-            <li class="nav-item"><a class="nav-link a-color" href="#">Support</a></li>
+            <li class="nav-item"><a class="nav-link a-color" href="#aboutfork">About Fork</a></li>
+            <li class="nav-item"><a class="nav-link a-color" href="#buying-options">Buying Options</a></li>
+            <li class="nav-item"><a class="nav-link a-color" href="#support">Support</a></li>
             <button class="button-nav-buy">Buy Now</button>
           </ul>
           </div>
@@ -32,7 +32,7 @@
     </section>
   </header>
   <div class="container-fluid text-center hero">
-    <section>
+    <section id="overview">
       <h1 class="forkup">Fork App</h1>
       <h3 class="gamechanger">A real gamechanger in the world of web development</h3>
       <h4 class="text-uppercase text-muted version-text-hero">v. 2.8 For Mac and Windows</h4>
@@ -48,7 +48,7 @@
     </section>
   </div>
   <div class="container-fluid features">
-    <section>
+    <section id="aboutfork">
         <h2 class="text-center">&lt;Here is what you get&gt;</h2>
         <img class="img" src="img/editor.png" alt="editor">
       <div class="all-left d-flex flex-column">
@@ -149,11 +149,41 @@ pharetra eros venenatis. Pellentesque porttitor<br> cursus massa et vestibulum.<
         <hr>
     </section>
   </div>
-  <div class="container-fluid pricing">
-    <section>
+  <div class="container-fluid text-center pricing">
+    <section id="buying-options">
+      <h2 class="font-weight-bold">Fork Subscription Pricing</h2>
+      <div class="container d-flex justify-content-center all-purchase">
+        <div class="students-purchase text-uppercase ">
+          <img src="img/students-box.png" alt="Students">
+          <button class="btn font-weight-bold"><p class="text-uppercase">Purchase</p></button>
+        </div>
+        <div class="professional-purchase text-uppercase ">
+          <img src="img/professional-box.png" alt="Professional">
+          <button class="btn font-weight-bold"><p class="text-uppercase">Purchase</p></button>
+        </div>
+        <div class="agency-purchase text-uppercase ">
+          <img src="img/agency-box.png" alt="Agency">
+          <button class="btn font-weight-bold"><p class="text-uppercase">Purchase</p></button>
+        </div>
+        <div class="enterprise-purchase text-uppercase">
+          <img src="img/enterprise-box.png" alt="enterprise">
+          <button class="btn font-weight-bold"><p class="text-uppercase">Purchase</p></button>
+        </div>
+      </div>
+      <p class="text-center text-muted underbutton-text-pricing">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt conse-<br>quat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
     </section>
   </div>
-
+  <div class="container-fluid subscription">
+    <section id="support">
+      <div class="container d-flex align-items-center justify-content-center subscription-content">
+        <h3 class="font-weight-bold">Subscribe To Oue Newsletter</h3>
+        <form action="#" method="post">
+          <input class="" type="email" name="email" placeholder="Email..." required>
+          <button class="btn text-uppercase">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </div>
 
 
 </body>
